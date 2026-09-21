@@ -36,6 +36,14 @@ omarchy-shell shell rescanPlugins
 omarchy plugin enable emila.terror-zone right
 ```
 
+## Uninstall
+
+```bash
+omarchy plugin remove emila.terror-zone --yes
+```
+
+Or by hand: `omarchy plugin disable emila.terror-zone`, then delete `~/.config/omarchy/plugins/emila.terror-zone`.
+
 ## Configuration
 
 Available from the widget's dropdown panel, or set directly on its entry in `~/.config/omarchy/shell.json` (`bar.layout.<section>`):
